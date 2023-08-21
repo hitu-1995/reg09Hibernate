@@ -1,0 +1,34 @@
+package com.cjc.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class CJC {
+
+	@Id
+	private int bid;
+	private String course;
+	private double fees;
+	
+	public int getBid() {
+		return bid;
+	}
+	public void setBid(int bid) {
+		this.bid = bid;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	public double getFees() {
+		return fees;
+	}
+	public void setFees(double fees) {
+		this.fees = fees;
+	}
+	
+	
+}

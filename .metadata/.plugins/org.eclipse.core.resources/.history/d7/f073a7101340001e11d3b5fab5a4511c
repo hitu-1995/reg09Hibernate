@@ -1,0 +1,21 @@
+package com.cjc.main;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.query.Query;
+
+import com.cjc.hbutil.HibernateUtil;
+import com.cjc.model.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+
+		 
+	}
+
+}

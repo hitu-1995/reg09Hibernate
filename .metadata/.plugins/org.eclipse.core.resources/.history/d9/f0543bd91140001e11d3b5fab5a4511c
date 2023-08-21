@@ -1,0 +1,18 @@
+package com.cjc.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Account {
+
+	@Id
+	private int acno;
+	private String name;
+	private String pan;
+	private long mob;
+	private double balance;
+	private String address;
+	
+	
+}

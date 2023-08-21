@@ -1,0 +1,10 @@
+package com.cjc.model;
+
+public class Student {
+
+	private int rollno;
+	private String name;
+	private double marks;
+	private String address;
+	
+}

@@ -1,0 +1,31 @@
+package com.cjc.service;
+
+import java.util.Scanner;
+
+import com.cjc.model.Account;
+
+public class SBI implements RBI{
+
+	Scanner sc = new Scanner(System.in);
+	HibernateUtil.getSessionFactory();
+	@Override
+	public void createAccount() {
+		Account ac = new Account();
+      System.out.println("Enter Your Name..");
+	  ac.setName(sc.next());
+	  System.out.println("Enter Your Pan Number..");
+	  ac.setPan(sc.next());
+	  System.out.println("Enter Your Mobile..");
+	  ac.setMob(sc.nextLong());
+	  System.out.println("Enter Your Opening Balance");
+	  ac.setBalance(sc.nextDouble());
+	  System.out.println("Enter Your Addresss..");
+	  ac.setAddress(sc.next());
+	  
+	  
+	  
+	  
+		
+	}
+
+}

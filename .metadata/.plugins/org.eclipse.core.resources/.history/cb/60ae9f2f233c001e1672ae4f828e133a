@@ -1,0 +1,10 @@
+package com.cjc.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Akurdi extends CJC{
+
+	private String akurdi_batchType;
+	
+}

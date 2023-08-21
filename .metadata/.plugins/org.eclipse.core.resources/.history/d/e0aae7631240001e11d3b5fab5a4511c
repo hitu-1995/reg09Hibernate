@@ -1,0 +1,22 @@
+package com.cjc.service;
+
+import java.util.Scanner;
+
+import com.cjc.model.Account;
+
+public class SBI implements RBI{
+
+	Scanner sc = new Scanner(System.in);
+	
+	@Override
+	public void createAccount() {
+	  
+		Account ac = new Account();
+	  
+      System.out.println("Enter Your Name..");
+	  String name = sc.next();
+	  
+		
+	}
+
+}

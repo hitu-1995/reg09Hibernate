@@ -1,0 +1,7 @@
+package com.cjc.model;
+
+public class KarveNagar {
+
+	private String karve_batchType;
+	
+}

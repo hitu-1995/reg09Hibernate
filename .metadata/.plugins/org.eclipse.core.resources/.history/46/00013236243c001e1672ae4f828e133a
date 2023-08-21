@@ -1,0 +1,10 @@
+package com.cjc.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class KarveNagar {
+
+	private String karve_batchType;
+	
+}

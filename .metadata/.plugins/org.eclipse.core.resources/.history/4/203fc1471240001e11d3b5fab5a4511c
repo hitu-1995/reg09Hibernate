@@ -1,0 +1,14 @@
+package com.cjc.service;
+
+import java.util.Scanner;
+
+public class SBI implements RBI{
+
+	Scanner sc = new Scanner(System.in);
+	
+	@Override
+	public void createAccount() {
+		
+	}
+
+}

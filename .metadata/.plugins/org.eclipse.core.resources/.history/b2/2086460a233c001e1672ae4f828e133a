@@ -1,0 +1,12 @@
+package com.cjc.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class CJC {
+
+	private int bid;
+	private String course;
+	private double fees;
+	
+}

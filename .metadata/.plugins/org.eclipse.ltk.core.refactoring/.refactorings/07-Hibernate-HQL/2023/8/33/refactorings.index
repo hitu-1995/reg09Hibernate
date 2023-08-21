@@ -1,0 +1,6 @@
+1692439309881	Rename local variable 'session1'
+1692439463092	Extract method 'getAllRecords'
+1692439836116	Extract method 'getSingleRcord'
+1692439935361	Rename local variable 'select'
+1692440497488	Extract method 'updateStudent'
+1692440653778	Extract method 'deleteStudent'
